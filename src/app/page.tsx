@@ -1,6 +1,7 @@
 import { revalidateTag } from "next/cache";
 import { addPostsToDatabase } from "../../actions/serveractions";
 import { Post } from "../../typings";
+import Link from "next/link";
 
 
 export default async function Home() {
@@ -18,6 +19,7 @@ export default async function Home() {
   return (
     <main className="flex flex-col items-center p-10">
       <h1 className="font-bold text-center">Add articles</h1>
+      <Link href="/article">Article form</Link>
       <form
         action={addPostsToDatabase}
         className="flex flex-col gap-5 max-w-xl p-5"
