@@ -12,8 +12,6 @@ export default async function Home() {
     }
   });
 
-   
-
   const posts: Post[] = await res.json();
 
   return (
