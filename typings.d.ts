@@ -11,3 +11,7 @@ export interface Article {
     imageurl: string;
     tags: string;
 }
+
+export interface Counter {
+  counter: number;
+}

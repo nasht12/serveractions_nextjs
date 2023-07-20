@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Intro
+Using this repo to learn and practice new Next.js feature, which include:
+- Server actions
+- useOptimistic hook
+
+## Details
+- Server actions
+    They allow us to make server mutations inside the next js app.
+- useOptimistic
+    Thus hook is used to make optimistic updates to in our app. Can be used to make use experience more reponsive and improve the UX.
+    Using it the UI updates are instant when the server action is invoked without having to wait for the action reponse.
+
 ## Getting Started
 
 First, run the development server:
